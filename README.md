@@ -3,7 +3,7 @@ Simple Image+Content Management System
 
 ## Concept
 
-The website home page will show a grid of squared images (from /img) and if there is a MarkDown file in the root directory with the same name of the image but with .md extension, the image will link to it. If any MarkDown file (.md) is requested, it will be interpreted (check [https://github.com/m0wer/markdown-handler](m0wer/markdown-handler)). You will need to enable .htaccess override in the Apache configuration.
+The website home page will show a grid of squared images (from /img) and if there is a MarkDown file in the root directory with the same name of the image but with .md extension, the image will link to it. If any MarkDown file (.md) is requested, it will be interpreted (check [m0wer/markdown-handler](https://github.com/m0wer/markdown-handler)). You will need to enable .htaccess override in the Apache configuration.
 
 ## Requirements
 
@@ -23,3 +23,7 @@ You are ready to go!
 ## Recommendations
 
 * Change title and meta tags from index.php
+
+## License
+
+Everything is GNU GPL 3.0 except for markdown folder contents (unlicensed), markdown.php license in file header.
